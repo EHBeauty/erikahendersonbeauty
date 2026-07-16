@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About | Erika Henderson Beauty</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="index.html" class="brand"><img src="images/logo.png" alt="Erika Henderson Beauty" class="logo-img"></a>
+    <div class="navlinks" id="navlinks">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <button class="navtoggle" id="navtoggle">&#9776;</button>
+  </div>
+</nav>
+
+<section class="pagehero">
+  <div class="glow"></div>
+  <div class="wrap">
+    <p class="eyebrow">About Erika</p>
+    <h1>Luxury Lifestyle Stylist</h1>
+    <p>Creative, detail-driven, and passionate about helping clients feel radiant for life's most meaningful moments.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap about-grid">
+    <div>
+      <div style="width:220px;margin-bottom:30px;">
+        <img src="images/headshot.jpg" alt="Erika Henderson" style="width:100%;aspect-ratio:1/1;object-fit:cover;object-position:top center;border-radius:2px;box-shadow:0 20px 40px -12px rgba(0,0,0,.35);">
+      </div>
+      <p class="eyebrow">My Story</p>
+      <h2 style="font-size:2.2rem;margin-top:10px;">Beauty with intention</h2>
+      <div class="divider"></div>
+      <p>I believe every detail tells a story. With a passion for beauty and creating memorable experiences, I help my clients feel confident and radiant for life's most meaningful moments.</p>
+      <p>From bridal mornings to red-carpet-ready events, every application is thoughtful, precise, and tailored to you. I bring a refined aesthetic, warm client communication, and concierge-level service to every appointment.</p>
+      <div class="pillrow">
+        <span>Bridal Hair &amp; Makeup</span>
+        <span>Special Event Makeup</span>
+        <span>Airbrush Spray Tanning</span>
+        <span>Light Hairstyling</span>
+        <span>White-Glove Client Experience</span>
+      </div>
+    </div>
+    <div class="timeline">
+      <div class="item">
+        <div class="yr">2010 — Present</div>
+        <h3>Luxury Event Makeup Artist</h3>
+        <p>On-location services for weddings, special events &amp; editorial work.</p>
+      </div>
+      <div class="item">
+        <div class="yr">MAC Cosmetics &amp; Freelance</div>
+        <h3>Bridal Hair, Makeup &amp; Spray Tan Artist</h3>
+        <p>Luxury bridal beauty, mobile services &amp; professional airbrush spray tanning throughout Southern California.</p>
+      </div>
+      <div class="item">
+        <div class="yr">Ongoing</div>
+        <h3>Light Hairstyling</h3>
+        <p>Soft glam styling to complement every finished makeup look.</p>
+      </div>
+      <div class="item">
+        <div class="yr">Featured</div>
+        <h3>Nobu Hotels Magazine</h3>
+        <p>Featured contributor, Hair &amp; Makeup Artist.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--charcoal);color:var(--ivory);text-align:center;">
+  <div class="wrap">
+    <p class="eyebrow">Ready When You Are</p>
+    <h2 style="color:var(--ivory);margin-top:10px;">Let's talk about your event.</h2>
+    <a href="contact.html" class="btn" style="margin-top:30px;">Get In Touch</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="brand serif">Erika Henderson Beauty</div>
+    <div>Creating beautiful, welcoming experiences through thoughtful artistry, elevated service, and meticulous attention to every detail.</div>
+    <div class="flinks">
+      <a href="tel:9497480470">949-748-0470</a>
+      <a href="mailto:Erika.HendersonBeauty@gmail.com">Email</a>
+      <a href="https://instagram.com/Erika.HendersonBeauty" target="_blank">Instagram</a>
+    </div>
+    <div style="margin-top:14px;opacity:.6;">&copy; 2026 Erika Henderson Beauty. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('navtoggle').addEventListener('click',function(){
+    document.getElementById('navlinks').classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>

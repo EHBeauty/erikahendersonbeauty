@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | Erika Henderson Beauty</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="index.html" class="brand"><img src="images/logo.png" alt="Erika Henderson Beauty" class="logo-img"></a>
+    <div class="navlinks" id="navlinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="portfolio.html" class="active">Portfolio</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <button class="navtoggle" id="navtoggle">&#9776;</button>
+  </div>
+</nav>
+
+<section class="pagehero">
+  <div class="glow"></div>
+  <div class="wrap">
+    <p class="eyebrow">Portfolio</p>
+    <h1>A look at the work.</h1>
+    <p>Bridal, special event, and spray tan artistry.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="portfoliogrid">
+      <img src="images/portfolio-01.jpg" alt="Erika Henderson Beauty portfolio photo 1" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+      <img src="images/portfolio-02.jpg" alt="Erika Henderson Beauty portfolio photo 2" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+      <img src="images/portfolio-03.jpg" alt="Erika Henderson Beauty portfolio photo 3" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+      <img src="images/portfolio-04.jpg" alt="Erika Henderson Beauty portfolio photo 4" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+      <img src="images/portfolio-05.jpg" alt="Erika Henderson Beauty portfolio photo 5" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+      <img src="images/portfolio-06.jpg" alt="Erika Henderson Beauty portfolio photo 6" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+      <img src="images/portfolio-07.jpg" alt="Erika Henderson Beauty portfolio photo 7" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+      <img src="images/portfolio-08.jpg" alt="Erika Henderson Beauty portfolio photo 8" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+      <img src="images/portfolio-09.jpg" alt="Erika Henderson Beauty portfolio photo 9" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+      <img src="images/portfolio-10.jpg" alt="Erika Henderson Beauty portfolio photo 10" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+      <img src="images/portfolio-11.jpg" alt="Erika Henderson Beauty portfolio photo 11" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+      <img src="images/portfolio-12.jpg" alt="Erika Henderson Beauty portfolio photo 12" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+      <img src="images/portfolio-13.jpg" alt="Erika Henderson Beauty portfolio photo 13" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+      <img src="images/portfolio-14.jpg" alt="Erika Henderson Beauty portfolio photo 14" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+      <img src="images/portfolio-15.jpg" alt="Erika Henderson Beauty portfolio photo 15" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+      <img src="images/portfolio-16.jpg" alt="Erika Henderson Beauty portfolio photo 16" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+      <img src="images/portfolio-17.jpg" alt="Erika Henderson Beauty portfolio photo 17" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+      <img src="images/portfolio-18.jpg" alt="Erika Henderson Beauty portfolio photo 18" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+      <img src="images/portfolio-19.jpg" alt="Erika Henderson Beauty portfolio photo 19" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+      <img src="images/portfolio-20.jpg" alt="Erika Henderson Beauty portfolio photo 20" style="width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;">
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--charcoal);color:var(--ivory);text-align:center;">
+  <div class="wrap">
+    <p class="eyebrow">Ready to Book?</p>
+    <h2 style="color:var(--ivory);margin-top:10px;">Let's create your look.</h2>
+    <a href="contact.html" class="btn" style="margin-top:30px;">Get In Touch</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="brand serif">Erika Henderson Beauty</div>
+    <div>Creating beautiful, welcoming experiences through thoughtful artistry, elevated service, and meticulous attention to every detail.</div>
+    <div class="flinks">
+      <a href="tel:9497480470">949-748-0470</a>
+      <a href="mailto:Erika.HendersonBeauty@gmail.com">Email</a>
+      <a href="https://instagram.com/Erika.HendersonBeauty" target="_blank">Instagram</a>
+    </div>
+    <div style="margin-top:14px;opacity:.6;">&copy; 2026 Erika Henderson Beauty. All rights reserved.</div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('navtoggle').addEventListener('click',function(){
+    document.getElementById('navlinks').classList.toggle('open');
+  });
+</script>
+
+</body>
+</html>
+
